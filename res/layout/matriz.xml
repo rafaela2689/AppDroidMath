@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/background">
+   
+<TextView
+        android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+        android:text="@string/tv_matriz" android:textSize="20sp" android:layout_marginTop="10sp" android:layout_marginBottom="10sp" android:layout_marginLeft="10sp" android:textColor="#7a378b"/>
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+       		<EditText
+                android:id="@+id/EditText_l1c1"
+                android:layout_width="wrap_content"
+               	android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number|numberSigned" android:hint="@string/ed_mat_a11"/>
+           
+			<EditText
+                android:id="@+id/EditText_l1c2"
+               	android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" android:hint="@string/ed_mat_a12"/>
+
+            <EditText
+                android:id="@+id/EditText_l1c3"
+                android:layout_width="wrap_content"
+               	android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" android:hint="@string/ed_mat_a13"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" >
+
+           <EditText
+                android:id="@+id/EditText_l2c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" android:hint="@string/ed_mat_a21"/>
+
+           <EditText
+                android:id="@+id/EditText_l2c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" android:hint="@string/ed_mat_a22"/>
+
+           <EditText
+                android:id="@+id/EditText_l2c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" android:hint="@string/ed_mat_a23"/>
+        </LinearLayout>
+
+       	<LinearLayout
+            android:layout_width="match_parent"
+           	android:layout_height="wrap_content" >
+
+           <EditText
+                android:id="@+id/EditText_l3c1"
+                android:layout_width="wrap_content"
+               	android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" android:hint="@string/ed_mat_a31"/>
+
+           <EditText
+                android:id="@+id/EditText_l3c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" android:hint="@string/ed_mat_a32"/>
+
+           <EditText
+                android:id="@+id/EditText_l3c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" android:hint="@string/ed_mat_a33"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_transposta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_weight="1"
+            android:text="@string/bt_transp"
+            android:textSize="15sp"
+            android:textStyle="bold" android:layout_marginLeft="10sp"/>
+
+        <Button
+            android:id="@+id/btn_inversa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_weight="1"
+            android:text="@string/bt_inversa"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       <Button
+           android:id="@+id/btn_cofatores"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10sp"
+           android:layout_marginTop="10sp"
+           android:layout_weight="1"
+           android:text="@string/bt_cofatores"
+           android:textSize="15sp"
+           android:textStyle="bold" android:layout_marginLeft="10sp"/>
+
+       <Button
+           android:id="@+id/btn_determinante"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10sp"
+           android:layout_marginTop="10sp"
+           android:layout_weight="1"
+           android:text="@string/bt_det"
+           android:textSize="15sp"
+           android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

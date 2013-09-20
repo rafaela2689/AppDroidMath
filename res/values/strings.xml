@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--  <color name="roxa">#7A378B</color>-->
+
+    <string name="titulo">DroidMath</string>
+    <string name="app_name">DroidMath</string>
+    <string name="splash_screen">DroidMath</string>
+    
+    <!-- SplashScreen -->
+    <string name="tv_splash">DroidMath</string>
+    
+    <!-- Menu principal -->
+    <string name="iniciar">Iniciar</string>
+    <string name="sobre">Sobre</string>
+    <string name="sair">Sair</string>
+    
+    <!-- Sobre -->
+    <string name="tv_sobre">DroidMath Versão 1.0 \n
+        					\n
+        					Desenvolvedores:\n
+        					Rafaela Cavalcante\n
+        					Ediane Santiago\n
+        					Adílio Souza\n
+    </string>
+    
+    <!-- Menu iniciar  -->
+    <string name="tv_iniciar">O que deseja fazer?</string>
+    <string name="lv_matriz">Matrizes</string>
+    <string name="lv_equacao">Equações</string>
+    <string name="lv_trigonometria">Trigonometria</string>
+    <string name="lv_fisica">Física</string>
+    
+    <!-- Menu trigonometria -->
+    <string name="hipotenusa">Calcular Hipotenusa</string>
+    <string name="grau">Converter graus em radianos</string>
+    <string name="radiano">Converter radianos em graus</string>
+    <string name="seno">Seno de um ângulo</string>
+    <string name="cosseno">Cosseno de um ângulo</string>
+    <string name="tangente">Tangente de um ângulo</string>
+    
+    <!-- Hipotenusa -->
+    <string name="tv_hipotenusa">Calcula a hipotenusa de um triângulo retângulo utilizando o Teorema de Pitágoras.</string>
+    <string name="ed_cateto1">Informe o cateto 1</string>
+    <string name="ed_cateto2">Informe o cateto 2</string>
+    <string name="bt_calcular">Calcular Hipotenusa</string>
+    
+    <!-- Grau -->
+    <string name="tv_grau">Converte um valor dado em graus para radianos.</string>
+    <string name="ed_grau">Informe o grau</string>
+    <string name="bt_grau">Converter</string>
+    
+    <!-- Radiano -->
+    <string name="tv_radiano">Coverte um valor dado em radiano para grau.</string>
+    <string name="ed_radiano">Informe o radiano</string>
+    <string name="bt_radiano">Converter</string>
+    
+    <!-- Seno -->
+    <string name="tv_seno">Calcula o seno de um ângulo dado.</string>
+    <string name="ed_seno">Informe o ângulo</string>
+    <string name="bt_seno">Calcular</string>
+    
+    <!-- Cosseno -->
+    <string name="tv_cosseno">Calcula o cosseno de um ângulo dado.</string>
+    <string name="ed_cosseno">Informe o ângulo:</string>
+    <string name="bt_cosseno">Calcular</string>
+    
+     <!-- Tangente -->
+    <string name="tv_tangente">Calcula a tangente de um ângulo dado.</string>
+    <string name="ed_tangente">Informe o ângulo:</string>
+    <string name="bt_tangente">Calcular</string>
+    
+    <!-- Fim Menu Trigonometria -->
+    
+    <!-- Menu equacoes -->
+    <string name="baskara">Bhaskara</string>
+    <string name="log">Logaritmo</string>
+    <string name="fat">Fatorial</string>
+    
+    <!-- Fatorial -->
+    <string name="tv_fat">Calcula o fatorial de um número dado.</string>
+    <string name="ed_fat">Informe o número</string>
+    <string name="bt_fat">Calcular Fatorial</string>
+    
+    <!-- Logaritmo -->
+    <string name="tv_log">Calcula o logaritmo de um número na base 10.</string>
+    <string name="ed_log">Informe o número</string>
+    <string name="bt_log">Calcular Logaritmo</string>
+    
+    <!-- Bhaskara -->
+    <string name="tv_bask">Calcula as raízes de uma equação do 2o grau, utilizando a fórmula de Bhaskara.</string>
+    <string name="ed_bask_a">Valor de a</string>
+    <string name="ed_bask_b">Valor de b</string>
+    <string name="ed_bask_c">Valor de c</string>
+    <string name="bt_bask">Calcular Raízes</string>
+    <!-- Fim Menu Equações -->
+    
+    <!-- Matriz -->
+    <string name="tv_matriz">Insira os valores da matriz de ordem 3x3.</string>
+    <string name="ed_mat_a11">a11</string>
+    <string name="ed_mat_a12">a12</string>
+    <string name="ed_mat_a13">a13</string>
+    <string name="ed_mat_a21">a21</string>
+    <string name="ed_mat_a22">a22</string>
+    <string name="ed_mat_a23">a23</string>
+    <string name="ed_mat_a31">a31</string>
+    <string name="ed_mat_a32">a32</string>
+    <string name="ed_mat_a33">a33</string>
+    <string name="bt_transp">Transposta</string>
+    <string name="bt_inversa">Inversa</string>
+    <string name="bt_cofatores">Cofatores</string>
+    <string name="bt_det">Determinante</string>
+    <string name="bt_produto">Produto de a*b</string>
+    
+    <!-- Menu Física -->
+    <string name="lv_tempo">Calcular tempo</string>
+    <string name="lv_espaco">Calcular espaço</string>
+    <string name="lv_veloc_med">Calcular velocidade média</string>
+    
+	<!-- Espaco -->
+	<string name="tv_espaco">Calcula o espaço percorrido, dadas a velocidade em m/s, e o tempo em segundos.</string>
+	<string name="bt_espaco">Calcular Espaço</string>
+	<string name="ed_espaco1">Informe a velocidade</string>
+	<string name="ed_espaco2">Informe o tempo</string>
+	
+	<!-- Tempo -->
+	<string name="tv_tempo">Calcula o tempo, dados o espaço em metros, e a velocidade \nem m/s.</string>
+	<string name="bt_tempo">Calcular Tempo</string>	   
+	<string name="ed_tempo1">Informe o espaço</string>
+	<string name="ed_tempo2">Informe a velocidade</string>
+	
+	<!-- Velocidade Média -->
+	<string name="tv_veloc_media">Calcula a velocidade média, dados o espaço em metros, e o tempo em segundos.</string>
+	<string name="bt_veloc_media">Calcular Velocidade Média</string>
+	<string name="ed_veloc1">Informe o espaço</string>
+	<string name="ed_veloc2">Informe o tempo</string>
+ 
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.droid.math"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/droid_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MathPrincipal"
+            android:label="@string/app_name" >
+           	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".SplashScreen"
+            android:label="@string/splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Sobre">
+        </activity>
+        <activity
+            android:name=".Iniciar">
+        </activity>
+        <activity
+            android:name="math.trigonometria.MainTrigonometria">
+        </activity>
+         <activity
+            android:name="math.trigonometria.Hipotenusa">
+        </activity>
+        <activity
+            android:name="math.trigonometria.GrauToRadiano">
+        </activity>
+        <activity
+            android:name="math.trigonometria.RadianoToGrau">
+        </activity>
+        <activity
+            android:name="math.trigonometria.AnguloSeno">
+        </activity>
+         <activity
+            android:name="math.trigonometria.AnguloCosseno">
+        </activity>
+        <activity
+            android:name="math.trigonometria.AnguloTangente">
+        </activity>
+        <activity
+            android:name="math.equacoes.MainEquacoes">
+        </activity>
+        <activity
+            android:name="math.equacoes.MainFatorial">
+        </activity>
+        <activity
+            android:name="math.equacoes.MainLogaritmo">
+        </activity>
+        <activity
+            android:name="math.equacoes.MainBhaskara">
+        </activity>
+        <activity
+            android:name="math.matriz.MainMatriz">
+        </activity>
+        <activity
+            android:name="math.fisica.MainFisica">
+        </activity>
+        <activity
+            android:name="math.fisica.MainTempo">
+        </activity>
+        <activity
+            android:name="math.fisica.MainEspaco">
+        </activity>
+        <activity
+            android:name="math.fisica.MainVelocidadeMedia">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/background">
+    
+    <TextView
+        android:id="@+id/textViewCosseno"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="40sp"
+        android:hint="@string/ed_cosseno"
+        android:text="@string/tv_cosseno"
+        android:textColor="#7a378b"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/edTxtCosseno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" android:layout_marginBottom="10sp" android:layout_marginLeft="10sp" android:layout_marginRight="10sp" android:hint="@string/ed_cosseno">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btCosseno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_cosseno" android:textSize="20sp" android:textStyle="bold" android:typeface="monospace" android:layout_gravity="center_horizontal"/>  
+
+</LinearLayout>

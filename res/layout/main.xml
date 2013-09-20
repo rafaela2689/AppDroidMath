@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+	>
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo" android:textSize="40sp" android:textStyle="bold" android:typeface="monospace" android:layout_gravity="center_horizontal" android:layout_marginBottom="20sp" android:layout_marginTop="70sp" android:textColor="#7A378B" android:shadowColor="#ffffff" android:shadowDx="1.8" android:shadowDy="1.8" android:shadowRadius="1.8"/>
+
+    <Button
+        android:id="@+id/bt_iniciar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+        android:gravity="center"
+        android:text="@string/iniciar"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="serif" android:layout_marginLeft="70sp" android:layout_marginRight="70sp" android:layout_marginTop="20sp"/>
+
+    <Button
+        android:id="@+id/bt_sobre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+        android:text="@string/sobre"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+		 android:layout_marginLeft="70sp" android:layout_marginRight="70sp"/>
+
+    <Button
+        android:id="@+id/bt_sair"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/sair"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+         android:layout_marginLeft="70sp" android:layout_marginRight="70sp"/>
+
+</LinearLayout>

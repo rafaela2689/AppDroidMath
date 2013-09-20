@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tv_hipotenusa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_hipotenusa" android:textSize="20sp" android:textStyle="normal" android:layout_gravity="center_horizontal" android:layout_marginTop="20sp" android:textColor="#7a378b" android:layout_marginLeft="10sp" android:layout_marginRight="10sp"/>
+
+    <EditText
+        android:id="@+id/edTxtCateto1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" android:layout_marginBottom="10sp" android:layout_marginLeft="10sp" android:layout_marginRight="10sp" android:layout_marginTop="20sp" android:hint="@string/ed_cateto1">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edTxtCateto2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" android:layout_marginRight="10sp" android:layout_marginLeft="10sp" android:layout_marginBottom="10sp" android:layout_marginTop="10sp" android:hint="@string/ed_cateto2"/>
+    <Button
+        android:id="@+id/bt_calcular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_calcular" android:layout_marginRight="30sp" android:layout_marginLeft="30sp" android:textSize="20sp" android:textStyle="bold" android:typeface="monospace"/>
+
+</LinearLayout>

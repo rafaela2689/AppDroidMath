@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tv_veloc_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_veloc_media" android:textSize="20sp" android:layout_marginTop="20sp" android:layout_marginLeft="10sp" android:textColor="#7a378b"/>
+    
+    <EditText
+        android:id="@+id/ed_vm_espaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" android:layout_marginBottom="10sp" android:layout_marginLeft="10sp" android:layout_marginRight="10sp" android:layout_marginTop="30sp" android:hint="@string/ed_veloc1">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed_vm_tempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" android:layout_marginRight="10sp" android:layout_marginLeft="10sp" android:layout_marginBottom="10sp" android:hint="@string/ed_veloc2"/>
+
+    <Button
+        android:id="@+id/bt_calc_velmedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_veloc_media" android:layout_gravity="center_horizontal" android:textSize="20sp" android:textStyle="bold" android:typeface="monospace" android:layout_marginLeft="10sp" android:layout_marginRight="10sp"/>
+    
+    
+
+</LinearLayout>
